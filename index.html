@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Catcher</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- <script type="text/javascript">
+    function isValidURL(string) {
+      var res = string.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+      return (res !== null)
+    }
+
+    function startIT() {
+
+      var myurl = document.getElementById("urltext").value;
+
+      if (myurl == "") {
+
+        alert("Please Enter URL");
+
+      }
+
+      else if (myurl !== "" && isValidURL(myurl) == true) {
+        grabFAV();
+      }
+
+      else {
+        alert("Please Enter Valid URL");
+      }
+
+    }
+
+    function grabFAV() {
+      var myurl = document.getElementById("urltext").value;
+      var myimg = document.getElementById("theimg");
+      var mysize = document.getElementById("size").value;
+      var duckapi = "https://icons.duckduckgo.com/ip3/";
+      var gapi = "https://s2.googleusercontent.com/s2/favicons?domain=";
+      if (mysize == "default") {
+        var h1 = "https://";
+        var h2 = "http://";
+
+        myurl = myurl.replace(h1, "");
+        myurl = myurl.replace(h2, "");
+
+        myimg.src = duckapi + myurl + ".ico";
+      }
+
+      else if (mysize == "16") {
+
+        myimg.src = gapi + myurl + "&sz=16";
+      }
+
+      else if (mysize == "32") {
+
+        myimg.src = gapi + myurl + "&sz=32";
+      }
+
+      else if (mysize == "48") {
+
+        myimg.src = gapi + myurl + "&sz=48";
+      }
+
+      else if (mysize == "64") {
+
+        myimg.src = gapi + myurl + "&sz=64";
+      }
+
+      else if (mysize == "128") {
+
+        myimg.src = gapi + myurl + "&sz=128";
+      }
+    }
+  </script> -->
+  <div class="grid">
+    <h2 align="center">Favicon Catcher</h2>
+    <center> <img src="" id="theimg"></center><br>
+
+    <select id="size">
+      <option value="default">Default Size</option>
+      <option value="16">16x16</option>
+      <option value="32">32x32</option>
+      <option value="48">48x48</option>
+      <option value="64">64x64</option>
+      <option value="128">128x128</option>
+    </select><br><br>
+    <input type="text" placeholder="Enter URL" id="urltext">
+    <br><br>
+    <input type="submit" value="Grab" onClick="startIT()">
+    <p>Developed By <a href="https://soulfulscribbles.tech" target="_blank">Alok Sharma</a> | 
+    <a href="https://www.linkedin.com/in/alok-sharma2002-/" target="_blank"><i class="bi bi-linkedin"></i></a> 
+    <br>
+     Open Sourced On  <a href="https://github.com/alok-2002/favicon_catcher" target="_blank"><i class="bi bi-github"></i></a></p>
+      
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
