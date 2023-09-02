@@ -1,6 +1,7 @@
 # Favicon Catcher
 
-![Favicon Catcher Logo](favicon_catcher_logo.png)
+![image](https://github.com/Alok-2002/Favicon_Catcher/assets/93814546/255f0ce8-91a1-481c-b193-24b956467bc0)
+
 
 ## Overview
 
@@ -26,7 +27,7 @@ Welcome to the **Favicon Catcher** repository! This project showcases a favicon 
 
 ## Live Demo
 
-Try out the Favicon Catcher by accessing the [Live Demo](https://your-vercel-url.com). Enter a website URL and experience how easy it is to fetch and download favicons!
+Try out the Favicon Catcher by accessing the [Live Demo](https://favicon-catcher.vercel.app/). Enter a website URL and experience how easy it is to fetch and download favicons!
 
 ## Getting Started
 
