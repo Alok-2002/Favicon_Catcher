@@ -27,7 +27,7 @@ Welcome to the **Favicon Catcher** repository! This project showcases a favicon 
 
 ## Live Demo
 
-Try out the Favicon Catcher by accessing the [Live Demo](https://favicon-catcher.vercel.app/). Enter a website URL and experience how easy it is to fetch and download favicons!
+Try out the Favicon Catcher by accessing the [Favicon Catcher](https://favicon-catcher.vercel.app/). Enter a website URL and experience how easy it is to fetch and download favicons!
 
 ## Getting Started
 
